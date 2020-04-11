@@ -24,20 +24,29 @@ h2 {
 }
 
 .container {
-	width: 1024px;
+    width: 1024px;
 	margin: 0 auto;
+}
+
+.figure {
+    position: relative;
 }
 
 #bio-image {
     position: relative;
     float: left;
-	width: 200px;
+    width: 200px;
+    height: 200px;
     margin-right: 20px;
+    margin-top: 20px;
 }
 
-.bio-name{
+#bio-name{
     position: absolute;
-    bottom: 0;
+    top: 45%;
+    left: 17%;
+    color:white;
+    font-size: 20px;
 }
 
 #main-bio {
@@ -56,7 +65,5 @@ a {
 	color: #d21034;
 }
 
-.figure {
-    position: relative;
-}
+
 
